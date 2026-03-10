@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="Page-1" id="7buLiPygPDkl10aYQndU">
-    <mxGraphModel dx="1658" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="763" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -121,6 +121,12 @@
         <mxCell id="bMseudxxNwqwiZnLrSDl-59" edge="1" parent="1" source="bMseudxxNwqwiZnLrSDl-46" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="bMseudxxNwqwiZnLrSDl-58" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2DmabKYf_i-X5MQHh85f-2" edge="1" parent="1" source="bMseudxxNwqwiZnLrSDl-46" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="2DmabKYf_i-X5MQHh85f-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2DmabKYf_i-X5MQHh85f-4" edge="1" parent="1" source="bMseudxxNwqwiZnLrSDl-46" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="2DmabKYf_i-X5MQHh85f-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bMseudxxNwqwiZnLrSDl-46" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" value="核心系統" vertex="1">
           <mxGeometry height="60" width="120" x="980" y="560" as="geometry" />
         </mxCell>
@@ -232,6 +238,9 @@
         <mxCell id="bMseudxxNwqwiZnLrSDl-96" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" value="ack&lt;div&gt;retry&lt;/div&gt;&lt;div&gt;dead letter queue&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="2180" y="1040" as="geometry" />
         </mxCell>
+        <mxCell id="2DmabKYf_i-X5MQHh85f-6" edge="1" parent="1" source="bMseudxxNwqwiZnLrSDl-98" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="2DmabKYf_i-X5MQHh85f-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bMseudxxNwqwiZnLrSDl-98" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" value="消息表&lt;div&gt;掃描程序&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="2180" y="770" as="geometry" />
         </mxCell>
@@ -250,14 +259,17 @@
         <mxCell id="bMseudxxNwqwiZnLrSDl-101" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" value="企業架構消息模式" vertex="1">
           <mxGeometry height="60" width="120" x="1940" y="1130" as="geometry" />
         </mxCell>
-        <mxCell id="bMseudxxNwqwiZnLrSDl-103" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" value="本地消息表" vertex="1">
-          <mxGeometry height="60" width="120" x="2180" y="1130" as="geometry" />
+        <mxCell id="2DmabKYf_i-X5MQHh85f-8" edge="1" parent="1" source="bMseudxxNwqwiZnLrSDl-103" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="2DmabKYf_i-X5MQHh85f-7" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bMseudxxNwqwiZnLrSDl-105" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" value="事務消息" vertex="1">
+        <mxCell id="bMseudxxNwqwiZnLrSDl-103" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" value="本地消息表" vertex="1">
           <mxGeometry height="60" width="120" x="2180" y="1220" as="geometry" />
         </mxCell>
-        <mxCell id="bMseudxxNwqwiZnLrSDl-108" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" value="直接使用" vertex="1">
+        <mxCell id="bMseudxxNwqwiZnLrSDl-105" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" value="事務消息" vertex="1">
           <mxGeometry height="60" width="120" x="2180" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="bMseudxxNwqwiZnLrSDl-108" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" value="直接使用" vertex="1">
+          <mxGeometry height="60" width="120" x="2180" y="1130" as="geometry" />
         </mxCell>
         <mxCell id="bMseudxxNwqwiZnLrSDl-110" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" value="支付成功&lt;div&gt;庫存失敗&lt;/div&gt;&lt;div&gt;退款&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="1460" y="860" as="geometry" />
@@ -288,6 +300,24 @@
         </mxCell>
         <mxCell id="bMseudxxNwqwiZnLrSDl-124" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" value="系統設計" vertex="1">
           <mxGeometry height="60" width="120" x="500" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="2DmabKYf_i-X5MQHh85f-1" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" value="ZooKeeper&lt;br&gt;etcd" vertex="1">
+          <mxGeometry height="60" width="120" x="1220" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="2DmabKYf_i-X5MQHh85f-3" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" value="多數派機制" vertex="1">
+          <mxGeometry height="60" width="120" x="980" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="2DmabKYf_i-X5MQHh85f-5" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" value="消息表&lt;br&gt;binlog監聽" vertex="1">
+          <mxGeometry height="60" width="120" x="2420" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="2DmabKYf_i-X5MQHh85f-10" edge="1" parent="1" source="2DmabKYf_i-X5MQHh85f-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="2DmabKYf_i-X5MQHh85f-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2DmabKYf_i-X5MQHh85f-7" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" value="CDC 並行讀取 binlog&lt;div&gt;MQ 多 partition&lt;br data-start=&quot;679&quot; data-end=&quot;682&quot;&gt;&amp;nbsp;Consumer group 並行消費&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2420" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="2DmabKYf_i-X5MQHh85f-9" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;rounded=1;" value="&lt;pre class=&quot;overflow-visible! px-0!&quot; data-start=&quot;1503&quot; data-end=&quot;1537&quot;&gt;&lt;div class=&quot;relative w-full mt-4 mb-1&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl&quot;&gt;&lt;div class=&quot;h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;relative z-0 flex max-w-full&quot;&gt;&lt;div id=&quot;code-block-viewer&quot; dir=&quot;ltr&quot; class=&quot;q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj&quot;&gt;&lt;div class=&quot;cm-scroller&quot;&gt;&lt;div class=&quot;cm-content q9tKkq_readonly&quot;&gt;Key Based Partitioning&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;p data-start=&quot;1539&quot; data-end=&quot;1548&quot;&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2660" y="1220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
